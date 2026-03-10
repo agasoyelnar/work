@@ -55,3 +55,24 @@
 //    else
 //        Console.Write(i + " ");
 //}
+
+// // 30
+// int[] num = {10,12,22,10,32,22,16,32,22,10,11,23,32,10,10,23,23,15};
+// int say = 0;
+// for (int i = 0; i < num.Length; i++)
+//     {
+//         bool tekrar = false;
+//         for (int j = 0; j < i; j++)
+//         {
+//             if (num[i] == num[j])
+//             {
+//                 tekrar = true;
+//                 break;
+//             }
+//             }
+//             if (!tekrar)
+//             {
+//                 say++;
+//             }
+//         }
+// System.Console.WriteLine(say);
